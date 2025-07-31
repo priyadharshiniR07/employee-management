@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/priyadharshiniR07/employee-management.git'
+                git branch: 'master', url: 'https://github.com/priyadharshiniR07/employee-management.git'
             }
         }
 
